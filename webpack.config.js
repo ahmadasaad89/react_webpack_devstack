@@ -7,13 +7,6 @@ module.exports = {
         path: path.join(__dirname, "/dist"),
         filename: "index.bundle.js"
     },
-    devServer: {
-        stats: {
-            children: false,
-            maxModules: 0
-        },
-        port: 3001
-    },
     module: {
         rules: [
             {
