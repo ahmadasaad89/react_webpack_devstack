@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start:dev": "webpack-dev-server --mode development",
+    "start:dev": "webpack-dev-server --mode development --hot",
     "build": "webpack --mode production"
   },
   "keywords": [],
@@ -25,6 +25,7 @@
   },
   "dependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-hot-loader": "^4.3.12"
   }
 }
